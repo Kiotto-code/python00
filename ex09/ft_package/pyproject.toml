@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit-core>=3.3.0"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+name = "ft-package"
+author = "eagle"
+author-email = "eagle@42.fr"
+home-page = "https://github.com/eagle/ft_package"
+description = "A sample test package"
+license = "MIT"
+requires-python = ">=3.6"

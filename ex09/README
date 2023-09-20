@@ -1,0 +1,9 @@
+## Installation
+
+You can install your package using pip:
+
+```bash
+pip install ft_package
+
+# ft_package contain count_in_list to count element in list
+
