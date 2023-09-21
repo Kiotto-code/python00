@@ -11,7 +11,7 @@ def main():
 
     assert [char for char in string if char.isalpha()], "the arguments are bad"
 
-    print(ft_filter((lambda s: len(s) > integer), string))
+    print(list(ft_filter((lambda s: len(s) > integer), string)))
 
 
 if __name__ == "__main__":
